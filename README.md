@@ -6,4 +6,4 @@ This is basic tic tac toe (XO) game using HTML , CSS , JS
 - Get current symbol : x or O ..
 
 ## Demo : 
-[Demo]('https://ourouimed.github.io/tic-tac-toe')
+[Demo](https://ourouimed.github.io/tic-tac-toe)
