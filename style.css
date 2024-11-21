@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ededed;
+}
+.container {
+    background: white;
+    WIDTH: 400px;
+    PADDING: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #b2adad;
+    max-width: 90%;
+}
+.xo-container {
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.title {
+    text-align: center;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.square {
+    background: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    transition: .4s ease;
+}
+.checked {
+    background: #01dd01;
+    color: white;
+}
+#reset {
+    background: blue;
+    width: 100%;
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+}
